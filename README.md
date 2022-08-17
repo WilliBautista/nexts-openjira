@@ -7,4 +7,4 @@ Para correr localmente, se necesita la base de datos
 * El -d, significa __detached__
 * MongoDB URL Local
 
-`mongodb://localhost:27017/entriesdb`
+`mongodb://localhost:27017/basededatos`
