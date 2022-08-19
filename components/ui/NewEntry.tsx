@@ -39,11 +39,11 @@ export const NewEntry = () => {
                 marginBottom: 1
               }}
               fullWidth
-              placeholder="Nueva entrada"
+              placeholder="New Entry"
               autoFocus
               multiline
-              label='Nueva Entrada'
-              helperText={ inputValue.length <= 0 && isTouched && 'Ingrese un valor' }
+              label='New Entry'
+              helperText={ inputValue.length <= 0 && isTouched && 'Type the entry ' }
               error={ inputValue.length <= 0 && isTouched }
               value={ inputValue }
               onChange={ onTextFieldChange }
@@ -54,7 +54,7 @@ export const NewEntry = () => {
                 variant='text'
                 onClick={ () => setIsAddingEntry( false )}
               >
-                Cancelar
+                Cancel
               </Button>
               <Button
                 variant='outlined'
@@ -62,7 +62,7 @@ export const NewEntry = () => {
                 endIcon={ <SaveOutlinedIcon /> }
                 onClick={ onSave }
               >
-                Guardar
+                Save
               </Button>
             </Box>
           </>
@@ -77,7 +77,7 @@ export const NewEntry = () => {
               setIsAddingEntry( true )
             }}
           >
-            Agregar tarea
+            Add new entry
           </Button>
         )
       }

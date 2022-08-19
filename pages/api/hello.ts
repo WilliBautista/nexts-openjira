@@ -13,7 +13,7 @@ export default function handler(
 ) {
   res.status(200).json({
     ok: true,
-    message: 'Todo correcto',
-    method: req.method || 'No hay método'
+    message: 'Whole correct',
+    method: req.method || 'Without method'
   })
 }
